@@ -59,7 +59,6 @@ class StudentList(APIView):
 #         print(i)
 #         #reads data from students table matching with id i
 #         s=Student.objects.filter(id=i)
-#
 #         #converts the data into python native type
 #         data=list(s.values())
 #
